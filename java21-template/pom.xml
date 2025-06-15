@@ -4,11 +4,11 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.gersty</groupId>
-    <artifactId>java17-template</artifactId>
+    <artifactId>java21-template</artifactId>
     <version>1.0.0</version>
-    <name>java17-template</name>
+    <name>java21-template</name>
     <packaging>maven-archetype</packaging>
-    <description>Archetype used to generate basic JAVA 17 and JUnit 5 application</description>
+    <description>Archetype used to generate basic JAVA 21 and JUnit 5 application</description>
 
     <build>
         <extensions>
@@ -22,8 +22,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <archetype-packaging.version>3.2.0</archetype-packaging.version>
     </properties>
 </project>
